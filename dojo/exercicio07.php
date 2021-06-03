@@ -7,13 +7,13 @@
   <body>
     <?php
 
-    $nota1 = 4;
-    $nota2 = 4;
-    $nota3 = 8;
+    $nota1 = 7;
+    $nota2 = 6;
+    $nota3 = 4;
 
-    $peso_nota1 = $nota1 * 0.2;
-    $peso_nota2 = $nota2 * 0.3;
-    $peso_nota3 = $nota3 * 0.5;
+    $peso_nota1 = $nota1 * (1/9);
+    $peso_nota2 = $nota2 * (3/9);
+    $peso_nota3 = $nota3 * (5/9);
 
     $media = $peso_nota1 + $peso_nota2 + $peso_nota3;
 

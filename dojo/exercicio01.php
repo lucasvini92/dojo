@@ -11,7 +11,8 @@
     $meses = 6;
     $anos = 28;
     $qnt_dias = ($anos * 365) + ($meses * 30) + $dias;
-    echo "A quantidade de dias que uma pessoa de $anos anos, $meses meses e $dias dias viveu é de $qnt_dias dias";
+    echo "A quantidade de dias que uma pessoa de $anos anos, $meses meses 
+    e $dias dias viveu é de $qnt_dias dias";
 
     ?>
   </body>

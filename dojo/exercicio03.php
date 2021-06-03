@@ -14,7 +14,8 @@
     $qnt_watts = 18*$area_comodo;
     $qnt_lamp = ceil($qnt_watts/$pow_lamp);
 
-    echo "São necessárias $qnt_lamp lampadas de $pow_lamp watts para iluminar um cômodo de $area_comodo m²"
+    echo "São necessárias $qnt_lamp lampadas de $pow_lamp 
+    watts para iluminar um cômodo de $area_comodo m²";
 
     ?>
   </body>

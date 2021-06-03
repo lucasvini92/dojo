@@ -18,8 +18,11 @@
     $qnt_vendida_item4 = 4;
 
     $valor_vendas = ($qnt_vendida_item1*$item1)+($qnt_vendida_item2*$item2)+($qnt_vendida_item3*$item3)+($qnt_vendida_item4*$item4);
-    $comissao = number_format ($valor_vendas * 9/100,2);
+    $comissao = $valor_vendas * 9/100;
     $salario = $comissao +200;
+
+    $comissao = number_format($comissao,2);
+    $salario = number_format($salario,2);
 
     echo "O vendedor vendeu: </br> 
     $qnt_vendida_item1 do item 1 </br>
@@ -27,7 +30,7 @@
     $qnt_vendida_item3 do item 3 </br>
     $qnt_vendida_item4 do item 4 </br>
     </br> O valor da sua comissão é de: R$ $comissao </br>
-    Salário a receber: R$ $salario"
+    Salário a receber: R$ $salario";
     
     ?>
   </body>

@@ -9,7 +9,8 @@
 
     $temp_fahrenheit = 86;
     $tem_celsius = ($temp_fahrenheit - 32) * (5/9);
-    echo "A temperarura em graus celsius correspondente a $temp_fahrenheit graus fahrenheit é de $tem_celsius";
+    echo "A temperarura em graus celsius correspondente 
+    a $temp_fahrenheit graus fahrenheit é de $tem_celsius";
 
     ?>
   </body>

@@ -25,7 +25,7 @@
     terá um salário bruto de R$ $salario; </br>
     O seu desconto de INSS será de R$ $inss; </br>
     O seu desconto de Imposto de Renda será de R$ $ir; </br>
-    E o salário liquido final é de R$ $salario_liquido; "
+    E o salário liquido final é de R$ $salario_liquido";
 
     ?>
   </body>

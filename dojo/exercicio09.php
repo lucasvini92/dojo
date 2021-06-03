@@ -9,11 +9,13 @@
 
     $vendas = 10000;
     $comissao = $vendas *0.15;
-    $salario = number_format ($comissao + 800,2);
+    $salario = $comissao + 800;
+
+    $salario = number_format($salario,2);
 
     echo "Total de vendas no mês: R$ $vendas </br>
     Valor total da comissão: R$ $comissao </br>
-    Salário total = R$: $salario"
+    Salário total = R$: $salario";
 
     ?>
   </body>

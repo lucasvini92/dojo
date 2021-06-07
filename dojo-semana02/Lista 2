@@ -1,0 +1,25 @@
+1- Faça um algoritmo que leia a idade de 05 pessoas, calcula e exiba:
+    - a mais velha
+    - A idade Média
+    - número de pessoas com idade superior a 20 anos
+Dica: Armazena as idades em um vetor
+
+2- Faça um programa que leia um número e imprima tabuada do mesmo
+
+3- Escreva um programa que leia um número e escreva se ele é primo
+
+4- A série de Fibonacci é formada pela sequência: 1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o enésimo termo. Utilize-se obrigatoriamente a estrutura while
+
+5- Escreva um aplicativo que calcula o produto dos números inteiros ímpares de 1 a 15.
+
+6- Faça um algoritmo que leia 05 valores e escreva o seu somatório.
+Dica: Armazena os valores em um vetor
+
+7- Fatoriais costumam ser utilizados em problemas de probabilidade. O fatorial de um inteiro positivo n (escrito como n! e pronunciado como “fatorial de n”) é igual ao produto dos números inteiros positivos de 1 a n. Escreva um aplicativo que calcula os fatoriais
+de 1 a 20.
+
+8- Declarar e construir duas matrizes de 10 números, informar os valores da primeira matriz e preencher os valores dos elementos da segunda matriz com o dobro dos valores dos elementos da primeira. Utilize o foreach.
+
+9- Declarar e construir uma matriz de 10 int, solicitar ao usuário que informe os valores dos elementos e mostrar os índices do maior e do menor elemento
+
+10- Somando os elementos da diagonal principal de uma matriz

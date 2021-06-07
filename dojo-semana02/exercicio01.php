@@ -9,10 +9,7 @@
     <?php
 
     $idades = array(18,25,30,16,22);
-    $soma =0;
-    $velha = 0;
-    $maior=0;
-    
+        
     for ($i=0; $i < 5; $i++) { 
 
       if($velha < $idades[$i]){
